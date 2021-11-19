@@ -319,6 +319,7 @@ cashMachine ={
   let price=input_form.querySelector('#price').value;
   let cash=input_form.querySelector('#cash').value;
   if(price=="" || cash=="" ){
+     input_form.getElementsByTagName('p')[0].style.color="red";
     input_form.getElementsByTagName('p')[0].innerHTML = "Please input price and cash!!";
   }else{
   input.price = roundNumber(price,2);
