@@ -365,5 +365,21 @@ projects[4].addEventListener("submit", (e) => {
         list_out[res_index].value = item[1];
       });
     }
+
+    input = {
+      price: 0,
+      cash: 0,
+      change: [
+        ["ONE HUNDRED", 0.0],
+        ["TWENTY", 0.0],
+        ["TEN", 0.0],
+        ["FIVE", 0.0],
+        ["ONE", 0.0],
+        ["QUARTER", 0.0],
+        ["DIME", 0.0],
+        ["NICKEL", 0.0],
+        ["PENNY", 0.0],
+      ],
+    };
   }
 });
